@@ -1,0 +1,194 @@
+.nav-bar {
+  background: #181818;
+  width: 5%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  @media (max-width: 1500px) {
+    width: 6.5%;
+  }
+  @media (max-width: 1200px) {
+    width: 7%;
+  }
+  @media (max-width: 992px) {
+    width: 8.5%;
+  }
+  @media (max-width: 768px) {
+    width: 8.5%;
+  }
+
+  nav {
+    display: block;
+    text-align: center;
+    position: absolute;
+    height: 210px;
+    top: 35%;
+    width: 100%;
+    @media (max-width: 992px) {
+      top: 40%;
+    }
+    @media (max-width: 768px) {
+    }
+    a {
+      font-size: 22px;
+      color: #4d4d4e;
+      display: block;
+      line-height: 51px;
+      position: relative;
+      text-decoration: none;
+      height: 100px;
+      @media (max-width: 1500px) {
+        height: 90px;
+      }
+      @media (max-width: 1200px) {
+        height: 80px;
+      }
+      @media (max-width: 992px) {
+        height: 70px;
+      }
+      @media (max-width: 768px) {
+        height: 60px;
+      }
+      i {
+        transition: all 0.3s ease-out;
+      }
+
+      &:hover {
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        svg {
+          opacity: 0.2;
+        }
+
+        &:after {
+          opacity: 1;
+        }
+      }
+
+      &:after {
+        content: ' ';
+        font-size: 15px;
+        letter-spacing: 2px;
+        position: absolute;
+        bottom: 55px;
+        display: block;
+        width: 100%;
+        text-align: center;
+        opacity: 0;
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+        
+        @media (max-width: 1500px) {
+          bottom: 45px;
+          font-size: 14px;
+        }
+        @media (max-width: 1200px) {
+          bottom: 35px;
+          font-size: 11px;
+        }
+        @media (max-width: 992px) {
+          bottom: 25px;
+          font-size: 10px;
+        }
+        @media (max-width: 768px) {
+          bottom: 8px;
+          font-size: 9px;
+        }
+      }
+
+      &.home-link {
+        &:after {
+          content: 'HOME';
+        }
+      }
+
+      &.about-link {
+        &:after {
+          content: 'ABOUT';
+        }
+      }
+
+      &.contact-link {
+        &:after {
+          content: 'CONTACT';
+        }
+      }
+
+      &.resume-link {
+        &:after {
+          content: 'RESUME';
+        }
+      }
+
+      &.active {
+        svg {
+          color: white;
+        }
+      }
+    }
+  }
+
+  ul {
+    bottom: 20px;
+    width: 100%;
+    display: block;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+
+    li {
+      a {
+        padding: 7px 0;
+        display: block;
+        font-size: 15px;
+        line-height: 16px;
+
+        &:hover svg {
+          color: white;
+        }
+        
+      }
+    }
+  }
+}
+
+.ico{
+  height: 1.5em;
+}
+.ico2{
+  height: 1.5em;
+}
+@media (max-width: 1200px) {
+  .ico {
+    height: 1.3em;
+  }
+}
+@media (max-width: 992px) {
+  .ico {
+    height: 1.3em;
+  }
+}
+@media (max-width: 768px) {
+  .ico {
+    height: 1em;
+  }
+}
+@media (max-width: 1200px) {
+  .ico2 {
+    height: 1.5em;
+  }
+}
+@media (max-width: 992px) {
+  .ico2 {
+    height: 1.3em;
+  }
+}
+@media (max-width: 768px) {
+  .ico2 {
+    height: 1em;
+  }
+}
