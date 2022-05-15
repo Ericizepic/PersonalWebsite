@@ -41,37 +41,45 @@
 
     .image-wrapper-uw {
       vertical-align: middle;
+      display: inline-block;
+      @media (min-width: 768px) {
+        margin-top: 5vh;
+      }
       .uwpic {
-        height: 60%;
+        height: 80%;
         object-fit: cover;
         width: 100%;
+        transform: translateY(-50%);
+        position: absolute;
 
         @media (min-width: 768px) {
-            top: 50%;
+          top: 50%;
+          height: 60%;
 
           -ms-transform: translateY(-50%);
           transform: translateY(-50%);
           position: absolute;
         }
         @media (max-width: 768px) {
-            transform: translateY(10vh);
+          transform: translateY(10vh);
         }
-
       }
     }
   }
-  .projects-row{
-      background-color: #333231;
-      .proj{
-        transform: translateY(5vh);
-        height: 15vh;
-        font-size: 53px;
-        font-family: 'Coolvetica';
-        color: white;
-        font-weight: 400;
-        margin-top: 0;
-        position: relative;
-        margin-bottom: 20px;
-      }
+  .projects-row {
+    background-color: #333231;
+    display: inline-block;
+    margin-top: 10vh;
+    .proj {
+      transform: translateY(5vh);
+      height: 15vh;
+      font-size: 53px;
+      font-family: 'Coolvetica';
+      color: white;
+      font-weight: 400;
+      margin-top: 0;
+      position: relative;
+      margin-bottom: 20px;
+    }
   }
 }
