@@ -6,10 +6,16 @@
     align-items: center;
     justify-content: center;
     background-size: cover;
-    height: 350px;
+    height: 60%;
+    min-height: 400px;
+    overflow: hidden;
+    object-fit: cover;
+    
+
   }
   
   .each-slide span {
+    transform: translateY(20vh);
     padding: 20px;
     font-size: 20px;
     background: #efefef;

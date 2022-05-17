@@ -28,7 +28,7 @@ const Home = () => {
 
   return (
     <Container className = "page">
-      <Row className ="row">
+      <Row className ="home-row">
         <Col className="home-page">
           <div className="text-zone">
             <h1>

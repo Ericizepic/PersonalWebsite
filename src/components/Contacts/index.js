@@ -34,7 +34,7 @@ const Contact = () => {
           <div className="contact-text-zone">
             <h1>Contact Information</h1>
             <h2>Email : ericdu5000@gmail.com</h2>
-            <h2>Mobile: (416)-482-6512</h2>
+            <h2>Mobile: (647)-482-6512</h2>
             <div className="contact-form">
             <p>Send me a message ↓</p>
               <form ref={form} onSubmit={sendEmail}>

@@ -43,3 +43,7 @@ Container {
   animation-delay: 1s;
 }
 
+::-webkit-scrollbar {
+  width: 5px;               /* width of vertical scrollbar */
+  border: 1px solid #d5d5d5;
+}

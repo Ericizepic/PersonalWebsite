@@ -37,7 +37,8 @@ const About = () => {
       </Row>
       <Row className="projects-row">
         <h1 className='proj'>What I've Worked On</h1>
-        <Slideshow />
+        <div className = "slideshow"><Slideshow />
+        </div>
       </Row>
     </Container>
   )

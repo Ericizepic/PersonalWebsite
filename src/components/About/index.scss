@@ -1,8 +1,11 @@
 .container.about-page {
+  padding: 0;
   .about-row {
     padding-top: 0vh;
     height: 80vh;
-    width: 95vw;
+    width: calc(100vw - 20%);
+    padding-left: 20%;
+
     .about-text {
       height: 100%;
       @media (max-width: 768px) {
@@ -67,9 +70,16 @@
     }
   }
   .projects-row {
+    width: calc(100vw - 5px);
     background-color: #333231;
     display: inline-block;
     margin-top: 10vh;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 10vh;
+    padding-left: 20%;
+    padding-right: 20%;
+
     .proj {
       transform: translateY(5vh);
       height: 15vh;
@@ -80,6 +90,9 @@
       margin-top: 0;
       position: relative;
       margin-bottom: 20px;
+      .slideshow {
+        padding-left: 0;
+      }
     }
   }
 }

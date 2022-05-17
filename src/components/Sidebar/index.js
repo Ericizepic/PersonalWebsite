@@ -17,7 +17,6 @@ import {
   faLinkedin,
   faYoutube,
 } from '@fortawesome/free-brands-svg-icons'
-import Resume from '../../assets/Resume.pdf'
 
 const Sidebar = () => {
   return (
@@ -29,26 +28,35 @@ const Sidebar = () => {
           activeclassname="active"
           to="/"
         >
-          <FontAwesomeIcon icon={faHome} className="ico" to="/home" color="#4d4d4e" />
+          <FontAwesomeIcon
+            icon={faHome}
+            className="ico"
+            to="/home"
+            color="#4d4d4e"
+          />
         </NavLink>
         <NavLink exact="true" className="about-link" to="/about">
-          <FontAwesomeIcon icon={faUser} className="ico"  color="#4d4d4e" />
+          <FontAwesomeIcon icon={faUser} className="ico" color="#4d4d4e" />
         </NavLink>
         <NavLink exact="true" className="contact-link ico" to="/contact">
-          <FontAwesomeIcon icon={faEnvelope} className="ico"  color="#4d4d4e" />
+          <FontAwesomeIcon icon={faEnvelope} className="ico" color="#4d4d4e" />
         </NavLink>
-        <NavLink exact="true" className="resume-link ico" to = {Resume} target = "_blank">
-          <FontAwesomeIcon icon={faFile} className="ico"  color="#4d4d4e" />
+        <NavLink
+          exact="true"
+          className="resume-link ico"
+          to={process.env.PUBLIC_URL + '/Eric_Du_Resume.pdf'}
+          target="_blank"
+        >
+          <FontAwesomeIcon icon={faFile} className="ico" color="#4d4d4e" />
         </NavLink>
-        </nav>
-        <ul>
-          <li>
-            <a target="_blank" rel="noreferrer" href="https://github.com/">
-              <FontAwesomeIcon icon={faGithub}  className="ico2" color="#4d4d4e" />
-            </a>
-          </li>
-        </ul>
-      
+      </nav>
+      <ul>
+        <li>
+          <a target="_blank" rel="noreferrer" href="https://github.com/">
+            <FontAwesomeIcon icon={faGithub} className="ico2" color="#4d4d4e" />
+          </a>
+        </li>
+      </ul>
     </div>
   )
 }
