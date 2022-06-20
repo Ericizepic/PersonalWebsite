@@ -55,10 +55,9 @@ const About = () => {
             </h1>
             <p>
               I am presently learning Computer Science at the University of
-              Waterloo. As a life long learner, I am always eager to pick up new
-              things and learn more about how the world works. I am currently
-              looking for opportunities to tackle challenging problem and work
-              on a diverse array of projects.
+              Waterloo. As a life long student, I'm always eager to pick up new
+              things and learn more about how the world works. I have always been super passionate about design and mathematics.
+              I am open for any opportunity to tackle challenging problems and work on projects that will impact others.
             </p>
           </div>
         </Col>
