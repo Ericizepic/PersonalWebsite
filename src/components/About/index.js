@@ -21,6 +21,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import cppIcon from '../../assets/images/cppIcon.png'
 import AOS from 'aos'
 import Card from './Card'
+import 'aos/dist/aos.css'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
