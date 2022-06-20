@@ -129,8 +129,8 @@ const About = () => {
           <div className="Art d-flex justify-content-center">
             <Card
               aos="fadeup"
-              aos_offset="300"
-              durration="1000"
+              aos_offset="350"
+              durration="500"
               img={art1}
               title="Still Life"
               desc="Study of human legs. Shaded with charcoal and a 2-B pencil."
@@ -139,8 +139,8 @@ const About = () => {
           <div className="Art d-flex justify-content-center">
             <Card
               aos="fadeup"
-              aos_offset="400"
-              durration="1000"
+              aos_offset="350"
+              durration="500"
               img={art2}
               title="Old Man"
               desc="Study of the human face. Shaded with charcoal and a 2-B pencil."
@@ -149,8 +149,8 @@ const About = () => {
           <div className="Art d-flex justify-content-center">
             <Card
               aos="fadeup"
-              aos_offset="300"
-              durration="1000"
+              aos_offset="250"
+              durration="500"
               img={art3}
               title="Air Jordan"
               desc="Depiction of basketball player dunking the basketball. Made with watercolor."
@@ -159,8 +159,8 @@ const About = () => {
           <div className="Art d-flex justify-content-center">
             <Card
               aos="fadeup"
-              aos_offset="300"
-              durration="1000"
+              aos_offset="250"
+              durration="500"
               img={art4}
               title="The Forest in Autumn"
               desc="View of a dense patch of forest vegetation. Painted with acrylic."
