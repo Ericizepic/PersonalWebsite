@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PersonalWebsite/static/css/main.61d30032.css",
-    "main.js": "/PersonalWebsite/static/js/main.c31f2d5c.js",
+    "main.css": "/PersonalWebsite/static/css/main.dd998801.css",
+    "main.js": "/PersonalWebsite/static/js/main.d501f875.js",
     "static/js/787.71e672d5.chunk.js": "/PersonalWebsite/static/js/787.71e672d5.chunk.js",
     "static/media/rpg_gif1.gif": "/PersonalWebsite/static/media/rpg_gif1.e37efeb0632be51730e7.gif",
     "static/media/art4.jpg": "/PersonalWebsite/static/media/art4.0cbbb8d1cc9f49dadb8a.jpg",
@@ -22,12 +22,12 @@
     "static/media/CoolveticaRg-Regular.woff2": "/PersonalWebsite/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "static/media/logo.svg": "/PersonalWebsite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/PersonalWebsite/index.html",
-    "main.61d30032.css.map": "/PersonalWebsite/static/css/main.61d30032.css.map",
-    "main.c31f2d5c.js.map": "/PersonalWebsite/static/js/main.c31f2d5c.js.map",
+    "main.dd998801.css.map": "/PersonalWebsite/static/css/main.dd998801.css.map",
+    "main.d501f875.js.map": "/PersonalWebsite/static/js/main.d501f875.js.map",
     "787.71e672d5.chunk.js.map": "/PersonalWebsite/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61d30032.css",
-    "static/js/main.c31f2d5c.js"
+    "static/css/main.dd998801.css",
+    "static/js/main.d501f875.js"
   ]
 }
