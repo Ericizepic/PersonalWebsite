@@ -115,7 +115,7 @@
     margin-top: 10vh;
 
     .proj {
-      transform: translateY(5vh);
+      transform: translateY(2vh);
       height: 15vh;
       font-size: 53px;
       font-family: 'Coolvetica';
@@ -125,6 +125,7 @@
       position: relative;
       margin-bottom: 20px;
       .slideshow {
+        margin-top: 10vh;
         padding-left: 0;
       }
     }
