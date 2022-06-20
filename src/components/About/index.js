@@ -4,6 +4,7 @@ import { Col, Row, Container } from 'react-bootstrap'
 import uwpic from '../../assets/images/waterloo.jpg'
 import 'react-slideshow-image/dist/styles.css'
 import Slideshow from './Slideshow'
+import TypeWriterEffect from 'react-typewriter-effect'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -20,14 +21,22 @@ const About = () => {
       <Row className="about-row">
         <Col className="about-text" s={10} md={6} lg={5}>
           <div className="about-text-zone">
-            <h1>About Me</h1>
+            <h1>
+              <TypeWriterEffect
+                startDelay={2000}
+                cursorColor="blue"
+                multiTextDelay={1500}
+                multiText={['About Me']}
+                typeSpeed={200}
+                hideCursorAfterText={true}
+              />
+            </h1>
             <p>
-              My name is Eric and I am a student presently enrolled at the
-              University of Waterloo. I am interesting in mathematics, long
-              distance running and art of all mediums. I am looking for an
-              opportunity to work with the latest technologies on challenging
-              and diverse projects from front end development to machine
-              learning.
+              I am presently learning Computer Science at the University of
+              Waterloo. As a life long learner, I am always eager to pick up new
+              things and learn more about how the world works. I am currently
+              looking for opportunities to tackle challenging problem and work
+              on a diverse array of projects.
             </p>
           </div>
         </Col>
@@ -36,8 +45,9 @@ const About = () => {
         </Col>
       </Row>
       <Row className="projects-row">
-        <h1 className='proj'>What I've Worked On</h1>
-        <div className = "slideshow"><Slideshow />
+        <h1 className="proj">What I've Worked On</h1>
+        <div className="slideshow">
+          <Slideshow />
         </div>
       </Row>
     </Container>

@@ -17,6 +17,8 @@ import {
   faLinkedin,
   faYoutube,
 } from '@fortawesome/free-brands-svg-icons'
+import pdf from '../../assets/Eric_Du_Resume.pdf'
+
 
 const Sidebar = () => {
   return (
@@ -41,14 +43,9 @@ const Sidebar = () => {
         <NavLink exact="true" className="contact-link ico" to="/contact">
           <FontAwesomeIcon icon={faEnvelope} className="ico" color="#4d4d4e" />
         </NavLink>
-        <NavLink
-          exact="true"
-          className="resume-link ico"
-          to={process.env.PUBLIC_URL + '/Eric_Du_Resume.pdf'}
-          target="_blank"
-        >
+        <a className="resume-link" href={pdf} target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faFile} className="ico" color="#4d4d4e" />
-        </NavLink>
+        </a>
       </nav>
       <ul>
         <li>

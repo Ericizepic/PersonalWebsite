@@ -15,7 +15,7 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-      .sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
+      .sendForm('service_vdrpq2v', 'template_djjpure', form.current, 'M_z9TazD3KON-bixO')
       .then(
         () => {
           alert('Message successfully sent!')
@@ -32,7 +32,7 @@ const Contact = () => {
       <Container className="container contact-page">
         <Row className="contact-row">
           <div className="contact-text-zone">
-            <h1>Contact Information</h1>
+            <h1>Contact</h1>
             <h2>Email : ericdu5000@gmail.com</h2>
             <h2>Mobile: (647)-482-6512</h2>
             <div className="contact-form">

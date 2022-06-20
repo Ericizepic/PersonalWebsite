@@ -11,9 +11,10 @@ import {
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import pfp from '../../assets/images/pfp.png'
+import pfp from '../../assets/images/programmer.webp'
 import { Col, Row, Container } from 'react-bootstrap'
 import Logo from './Logo'
+import TypeWriterEffect from 'react-typewriter-effect'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -27,8 +28,8 @@ const Home = () => {
   }, [])
 
   return (
-    <Container className = "page">
-      <Row className ="home-row">
+    <Container className="page">
+      <Row className="home-row">
         <Col className="home-page">
           <div className="text-zone">
             <h1>
@@ -37,11 +38,14 @@ const Home = () => {
               <br></br>
               <span className={`${letterClass} _13`}>I</span>
               <span className={`${letterClass} _14`}>'m&nbsp; </span>
-              <AnimatedLetters
-                letterClass={letterClass}
-                strArray={nameArray}
-                idx={15}
-              />
+              <span className="Name">
+                <AnimatedLetters
+                  letterClass={letterClass}
+                  strArray={nameArray}
+                  idx={15}
+                />
+              </span>
+
               <br />
             </h1>
             <h2>Student, Developer, Amateur Artist </h2>
@@ -51,34 +55,11 @@ const Home = () => {
             </Link>
           </div>
         </Col>
-        <Col className="image-wrapper" xs={4} md={6}>
-          <img className="pfp" src={pfp}></img>
+        <Col className="image-wrapper" xs={4} md={6} lg={7} xl={8}>
+          <img className="pfp moveArrow" src={pfp}></img>
         </Col>
       </Row>
-      <div className="background">
-        <div className="stage-cube-cont">
-          <div className="cubespinner">
-            <div className="face1">
-              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
-            </div>
-            <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
-            </div>
-            <div className="face3">
-              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
-            </div>
-            <div className="face4">
-              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-            </div>
-            <div className="face5">
-              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
-            </div>
-            <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
-            </div>
-          </div>
-        </div>
-      </div>
+      <div className="background"></div>
     </Container>
   )
 }

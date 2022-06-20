@@ -14,7 +14,7 @@ $cube-half-height: 15vw;
       }
 
       h1 {
-        color: #ae4739;
+        color: black;
         font-size: 110px;
         line-height: 90px;
         margin: 0;
@@ -30,6 +30,9 @@ $cube-half-height: 15vw;
           animation: rotateIn 1s linear both;
           animation-delay: 1.4s;
         }
+        .Name {
+          color: #679ae2;
+        }
       }
 
       h2 {
@@ -44,27 +47,28 @@ $cube-half-height: 15vw;
 
       .button {
         position: relative;
-        color: black;
+        background: #679ae2;
+        color: white;
         font-size: 22px;
         font-weight: 500;
         letter-spacing: 4px;
         font-family: sans-serif;
         text-decoration: none;
         padding: 20px 28px;
-        border: 1px solid black;
+        border: 1px solid white;
         margin-top: 35px;
         float: left;
         animation: fadeInAnimation 1s 1.8s backwards;
         white-space: nowrap;
         z-index: 1000;
         &:hover {
-          background: black;
+          background: #355786;
           color: white;
         }
       }
     }
     .image-wrapper {
-      padding-right: 10%;
+      padding-right: 15%;
       text-align: right;
       height: 100vh;
 
@@ -98,9 +102,9 @@ $cube-half-height: 15vw;
         }
       }
       .image-wrapper {
-        padding-right: 45%;
+        padding-right: 17%;
         .pfp {
-          height: 44%;
+          height: 55%;
           margin-top: 29vh;
         }
       }
@@ -128,9 +132,9 @@ $cube-half-height: 15vw;
         }
       }
       .image-wrapper {
-        padding-right: 45%;
+        padding-right: 22%;
         .pfp {
-          height: 36%;
+          height: 50%;
           margin-top: 33vh;
         }
       }
@@ -160,8 +164,8 @@ $cube-half-height: 15vw;
       .image-wrapper {
         padding-right: 45%;
         .pfp {
-          height: 26%;
-          margin-top: 38vh;
+          height: 45%;
+          margin-top: 35vh;
         }
       }
     }
@@ -191,10 +195,10 @@ $cube-half-height: 15vw;
         }
       }
       .image-wrapper {
-        padding-right: 45%;
+        padding-right: 40%;
         .pfp {
-          height: 20%;
-          margin-top: 41vh;
+          height: 30%;
+          margin-top: 38vh;
         }
       }
     }
@@ -285,3 +289,19 @@ $cube-half-height: 15vw;
 }
 
 $breakpoint-tablet: 768px;
+
+.moveArrow {
+  animation-name: mymove;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 4s;
+}
+
+@keyframes mymove {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
