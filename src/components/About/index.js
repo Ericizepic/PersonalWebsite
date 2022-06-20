@@ -138,7 +138,7 @@ const About = () => {
           <div className="Art d-flex justify-content-center">
             <Card
               aos="fadeup"
-              aos_offset="200"
+              aos_offset="400"
               durration="1000"
               img={art2}
               title="Old Man"
@@ -148,7 +148,7 @@ const About = () => {
           <div className="Art d-flex justify-content-center">
             <Card
               aos="fadeup"
-              aos_offset="200"
+              aos_offset="300"
               durration="1000"
               img={art3}
               title="Air Jordan"
@@ -158,7 +158,7 @@ const About = () => {
           <div className="Art d-flex justify-content-center">
             <Card
               aos="fadeup"
-              aos_offset="200"
+              aos_offset="300"
               durration="1000"
               img={art4}
               title="The Forest in Autumn"
