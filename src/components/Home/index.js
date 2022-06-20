@@ -2,15 +2,6 @@ import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
-import {
-  faAngular,
-  faCss3,
-  faGitAlt,
-  faHtml5,
-  faJsSquare,
-  faReact,
-} from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import pfp from '../../assets/images/programmer.webp'
 import { Col, Row, Container } from 'react-bootstrap'
 import Logo from './Logo'

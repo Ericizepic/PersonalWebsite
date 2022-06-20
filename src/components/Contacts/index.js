@@ -70,7 +70,7 @@ const Contact = () => {
                       required
                     ></textarea>
                   </li>
-                  <li>
+                  <li className = "button">
                     <input type="submit" className="flat-button" value="SEND" />
                   </li>
                 </ul>
