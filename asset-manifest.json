@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/PersonalWebsite/static/css/main.f476acec.css",
-    "main.js": "/PersonalWebsite/static/js/main.a9db3e4f.js",
+    "main.css": "/PersonalWebsite/static/css/main.4bca9b5e.css",
+    "main.js": "/PersonalWebsite/static/js/main.b9651f6c.js",
     "static/js/787.71e672d5.chunk.js": "/PersonalWebsite/static/js/787.71e672d5.chunk.js",
     "static/media/rpg_gif1.gif": "/PersonalWebsite/static/media/rpg_gif1.e37efeb0632be51730e7.gif",
     "static/media/waterloo.jpg": "/PersonalWebsite/static/media/waterloo.7d80a802436848f56752.jpg",
+    "static/media/Eric_Du_Resume.pdf": "/PersonalWebsite/static/media/Eric_Du_Resume.eb51ec25d1b74ba37a66.pdf",
+    "static/media/programmer.webp": "/PersonalWebsite/static/media/programmer.f67b0fea46088c4775e6.webp",
     "static/media/discordfs.PNG": "/PersonalWebsite/static/media/discordfs.718bec7cdb6a827cdecd.PNG",
     "static/media/modelinfo.PNG": "/PersonalWebsite/static/media/modelinfo.358d84325b39944c1e5b.PNG",
     "static/media/helvetica-neu.ttf": "/PersonalWebsite/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
@@ -15,12 +17,12 @@
     "static/media/CoolveticaRg-Regular.woff2": "/PersonalWebsite/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "static/media/logo.svg": "/PersonalWebsite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/PersonalWebsite/index.html",
-    "main.f476acec.css.map": "/PersonalWebsite/static/css/main.f476acec.css.map",
-    "main.a9db3e4f.js.map": "/PersonalWebsite/static/js/main.a9db3e4f.js.map",
+    "main.4bca9b5e.css.map": "/PersonalWebsite/static/css/main.4bca9b5e.css.map",
+    "main.b9651f6c.js.map": "/PersonalWebsite/static/js/main.b9651f6c.js.map",
     "787.71e672d5.chunk.js.map": "/PersonalWebsite/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f476acec.css",
-    "static/js/main.a9db3e4f.js"
+    "static/css/main.4bca9b5e.css",
+    "static/js/main.b9651f6c.js"
   ]
 }
